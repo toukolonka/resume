@@ -1,5 +1,7 @@
-const App = () => {
-  return <div>Hello world!</div>;
-};
+import Intro from "./components/intro/Intro";
 
-export default App;
+const App = () => {
+  return <div><Intro /></div>
+}
+
+export default App

@@ -62,7 +62,6 @@ form {
 input {
   width: 50%;
   height: 50px;
-  border-bottom: 1px solid #000;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
@@ -108,9 +107,12 @@ button {
   }
 
   input {
-    width: 50%;
     height: 40px;
-    margin: 10px;
-    margin-left: 0;
+    margin: 5px 0px;
+    width: 100%;
+  }
+
+  textarea {
+    margin: 5px 0px;
   }
 }

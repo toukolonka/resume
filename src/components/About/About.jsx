@@ -1,5 +1,6 @@
 import React from 'react';
 import Me2 from '../../img/me2.jpeg'
+import Aalto from '../../img/aalto.png'
 
 import './About.css'
 
@@ -18,23 +19,10 @@ const About = () => {
           <h3 className="about-subtitle">Aalto University, Master of Technology</h3>
           <p className="about-sub-subtitle">Computer Science</p>
           <p className="about-time">September 2020 - Present</p>
-          <p className="about-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          </p>
           <h3 className="about-subtitle">Aalto University, Bachelor of Technology</h3>
           <p className="about-sub-subtitle">Information Technology</p>
           <p className="about-time">August 2017 - August 2020</p>
-          <p className="about-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          </p>
+          <img src={Aalto} alt="" className="about-section-image" />
         </div>
       </div>
     </div>

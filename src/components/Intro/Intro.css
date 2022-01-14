@@ -83,9 +83,23 @@
   position: absolute;
 }
 
+@media screen and (max-width: 1200px) {
+  .intro-name {
+    font-size: 40px;
+  }
+
+  .intro-intro {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro {
     flex-direction: column;
+  }
+
+  .intro-right {
+    flex: 2;
   }
 
   .intro-left-wrapper {
@@ -95,6 +109,11 @@
     justify-content: center;
     height: 100%;
   }
+
+  .intro-desc {
+    display: none;
+  }
+
   .intro-title-item {
     justify-content: center;
   }

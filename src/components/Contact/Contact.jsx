@@ -62,8 +62,8 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="name" />
-            <input type="text" placeholder="Subject" name="subject" />
             <input type="text" placeholder="Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
             <textarea rows="5" placeholder="Message" name="message"></textarea>
             <button>Send Message</button>
             {sent && <small>Message sent successfully!</small>}

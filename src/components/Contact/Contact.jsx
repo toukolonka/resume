@@ -58,7 +58,7 @@ const Contact = () => {
         </div>
         <div className="contact-right">
           <p className="contact-desc">
-            <b>Something on your mind?</b> Send me a message!
+            <b>Send me a message!</b>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="name" />

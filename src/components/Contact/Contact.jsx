@@ -26,34 +26,34 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-bg"></div>
         <div className="contact-left">
-        <div className="contact-left-wrapper">
-          <h1 className="contact-title">
-            Contact me
-          </h1>
-          <div className="contact-info">
-            <div className="contact-info-item">
-              <img src={Phone} alt="" className="contact-icon" />
-              +358 50 432 1869
+          <div className="contact-left-wrapper">
+            <h1 className="contact-title">
+              Contact me
+            </h1>
+            <div className="contact-info">
+              <div className="contact-info-item">
+                <img src={Phone} alt="" className="contact-icon" />
+                +358 50 432 1869
+              </div>
+              <div className="contact-info-item">
+                <img src={Email} alt="" className="contact-icon" />
+                touko.lonka@gmail.com
+              </div>
+              <div className="contact-info-item">
+                <img src={Address} alt="" className="contact-icon" />
+                Helsinki
+              </div>
+              <div className="contact-info-item">
+                <img src={LinkedIn} alt="" className="contact-icon" />
+                <a
+                  href="https://www.linkedin.com/in/touko-lonka-4ab255191/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Touko Lonka
+                </a>
+              </div>
             </div>
-            <div className="contact-info-item">
-              <img src={Email} alt="" className="contact-icon" />
-              touko.lonka@gmail.com
-            </div>
-            <div className="contact-info-item">
-              <img src={Address} alt="" className="contact-icon" />
-              Toinen linja 25 A 31, 00530 Helsinki
-            </div>
-            <div className="contact-info-item">
-              <img src={LinkedIn} alt="" className="contact-icon" />
-              <a
-                href="https://www.linkedin.com/in/touko-lonka-4ab255191/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Touko Lonka
-              </a>
-            </div>
-          </div>
           </div>
         </div>
         <div className="contact-right">

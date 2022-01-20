@@ -65,15 +65,6 @@
   font-size: 30px;
   font-weight: bold;
   color: #59b256;
-  display: flex;
-  align-items: center;
-}
-
-.intro-scroll {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 20px;
 }
 
 .intro-image {

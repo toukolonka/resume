@@ -1,4 +1,6 @@
-# Getting Started
+# Resume
+
+## Getting Started
 
 `npm install`
 
